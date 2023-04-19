@@ -1,1 +1,47 @@
-My first css file
+body {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    background: url(./images/flower.avif);
+    color: white;
+    justify-content: center;
+    overflow: hidden;  
+    flex-direction: column;
+    height: 100vh;  
+    font-family: sans-serif;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    flex-direction: column;
+    margin: 5px;
+}
+
+.clock span {
+    display: flex;
+    background: slateblue;
+    color: white;
+    height: 80px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    opacity: .8;
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: darkblue;
+    opacity: 80%;
+}
+
+.clock #ampm{
+    /* bottom: 0; */
+    position: absolute;
+    /* width: 60px; */
+}
